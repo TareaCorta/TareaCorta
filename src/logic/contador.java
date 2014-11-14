@@ -7,6 +7,13 @@ package logic;
 
 import java.io.IOException;
 import Node.*;
+import logic.MergeSortA;
+import logic.bubbleSortA;
+import logic.insertSortL;
+import logic.mergeSortL;
+import logic.quickSortA;
+import logic.selectionSortA;
+import logic.selectionsortL;
 /**
  *
  * @author ellioth
@@ -65,7 +72,7 @@ public class contador <T> {
         return total;
     }
     
-     public float contadorLis( Lista list , int clase) throws IOException{
+    public float contadorLis( Lista list , int clase) throws IOException{
         /**Burbuja=1
          * insert=2
          * selection=3

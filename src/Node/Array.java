@@ -7,6 +7,7 @@
 package Node;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  *
@@ -18,9 +19,11 @@ public class Array <T>{
     public Array(){
         array = new ArrayList();
     }
-    public void llenar(){
-        array.add((T) "Hola");
-        array.add((T) (Integer) 23);
+    public void llenar(int CantMax){
+        Random rnd = new Random();
+        for (int i=0; i<CantMax; i++){
+            array.add((T)(Integer)rnd.nextInt(1000));
+        }
     }
     public void imprimir(){
         for (int i=0;i<array.size(); i++){

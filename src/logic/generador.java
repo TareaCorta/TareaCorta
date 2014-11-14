@@ -6,7 +6,6 @@
 package logic;
 
 import Node.Lista;
-import Node.Node;
 import java.io.IOException;
 import java.util.Random;
 

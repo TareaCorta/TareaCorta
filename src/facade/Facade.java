@@ -5,6 +5,7 @@
  */
 package facade;
 
+import logic.contador;
 import logic.*;
 import Node.*;
 import java.io.IOException;

@@ -11,34 +11,6 @@ package logic;
  */
 public class MergeSortA <T>{
     T[] arreglo= (T[]) new Object[10];
-    //private final quickSortA nuevo= new quickSortA();
-    
-    /*public T[] mergeSort(T [] arreglo, int inicio, int fin){
-        if (inicio==fin)
-            return arreglo;
-        if (fin-inicio==1){
-            try{
-            if ((Integer)arreglo[fin]<(Integer)arreglo[inicio]){
-                nuevo.swapArreglo(arreglo, fin, inicio);
-            }
-            return arreglo;
-            }catch(Exception e){
-                if (((String)arreglo[fin]).compareTo((String)arreglo[inicio])<0){
-                nuevo.swapArreglo(arreglo, fin, inicio);
-            }
-            return arreglo;
-            }
-        }
-        int mid =(inicio+fin)/2;
-        if(mid-inicio>=1){
-            mergeSort(arreglo,inicio,mid-1);
-        }
-        if (fin-mid>=1){
-            mergeSort(arreglo,mid,fin);
-        }
-        return arreglo;
-    }*/	
-
     /*http://www.it.uc3m.es/tsps/lab/8/skel/MergeSort.java 
     * codigo tomado, modificado e implementado de esta pagina
     */
